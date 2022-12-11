@@ -1,0 +1,38 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "hardhat": "^2.9.0",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "axios": "^0.26.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "function-bind": "^1.1.1",
+    "glob": "^7.2.0",
+    "glob-parent": "^6.0.2",
+    "ipfs-http-client": "^56.0.1",
+    "moment": "^2.29.1",
+    "next": "^12.1.0",
+    "util-deprecate": "^1.0.2",
+    "web3modal": "^1.9.5",
+    "xtend": "^4.0.2"
+  }
+}
